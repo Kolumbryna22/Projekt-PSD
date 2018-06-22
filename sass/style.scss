@@ -324,3 +324,16 @@
         @include button-style(white, $red);
     }
 }
+
+.news {
+    .row {
+        padding-bottom: 60px;
+    }
+    
+    .news-card {
+        width: 360px;
+        height: 390px;
+        background-color: $grey;
+        text-align: left;
+    }
+}

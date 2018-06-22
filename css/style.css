@@ -323,4 +323,12 @@ body {
     text-transform: uppercase;
     cursor: pointer; }
 
+.news .row {
+  padding-bottom: 60px; }
+.news .news-card {
+  width: 360px;
+  height: 390px;
+  background-color: #f4f4f4;
+  text-align: left; }
+
 /*# sourceMappingURL=style.css.map */
