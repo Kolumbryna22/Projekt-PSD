@@ -70,7 +70,7 @@ body {
   .navigation .navigation-list-item {
     display: inline-block; }
   .navigation a {
-    font-size: 16;
+    font-size: 16px;
     display: block;
     padding: 0 10px;
     color: white;
@@ -132,11 +132,11 @@ body {
     line-height: 52px; }
   .about p {
     max-width: 466px;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 30px; }
   .about .video {
     color: #ed145b;
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
     width: 150px; }
@@ -173,7 +173,7 @@ body {
     margin: 0 auto;
     width: 100%;
     max-width: 681px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 30px; }
 
@@ -196,7 +196,7 @@ body {
   padding: 0;
   padding-top: 34px;
   padding-bottom: 121px;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
   color: #ed145b; }
@@ -225,7 +225,7 @@ body {
     height: 470px;
     background-color: white; }
     .prices .prices-card p {
-      font-size: 15px;
+      font-size: 16px;
       margin: 0;
       padding: 0; }
     .prices .prices-card .prices-card-title {
@@ -273,7 +273,7 @@ body {
   padding-bottom: 134px; }
   .additionalInfo h2 {
     color: #ed145b;
-    font-size: 15PX;
+    font-size: 16px;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
