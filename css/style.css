@@ -116,6 +116,7 @@ body {
     height: 50px;
     border: none;
     border-radius: 25px;
+    font-size: 16px;
     text-transform: uppercase;
     cursor: pointer; }
 
@@ -135,13 +136,18 @@ body {
     font-size: 16px;
     line-height: 30px; }
   .about .video {
+    cursor: pointer;
     color: #ed145b;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 400;
-    width: 150px; }
+    width: 200px; }
+    .about .video p {
+      float: left; }
     .about .video .border {
-      float: right;
+      margin-left: 10px;
+      margin-top: 17px;
+      float: left;
       border: 1.5px solid #ed145b;
       border-radius: 50%;
       width: 27px;
@@ -250,6 +256,7 @@ body {
       height: 50px;
       border: none;
       border-radius: 25px;
+      font-size: 16px;
       text-transform: uppercase;
       cursor: pointer; }
     .prices .prices-card .prices-card-quantity {
@@ -259,7 +266,9 @@ body {
       height: 50px;
       border: none;
       border-radius: 25px;
+      font-size: 16px;
       text-transform: uppercase;
+      cursor: pointer;
       margin: 0 auto;
       position: relative;
       top: -25px; }
@@ -286,5 +295,32 @@ body {
     font-size: 16px; }
   .additionalInfo .additionalInfo-line {
     padding-bottom: 87px; }
+
+.joinUs {
+  text-transform: uppercase;
+  height: 200px;
+  width: 100%;
+  background-color: #ed145b;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .joinUs p {
+    font-size: 38px;
+    color: white;
+    font-weight: 300;
+    padding-right: 45px; }
+  .joinUs span {
+    font-weight: bold; }
+  .joinUs button {
+    background-color: white;
+    color: #ed145b;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

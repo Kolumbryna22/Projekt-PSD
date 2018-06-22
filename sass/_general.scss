@@ -76,5 +76,7 @@ body {
   height: 50px;
   border: none;
   border-radius: 25px;
+  font-size: $size-p;
   text-transform: uppercase;
+  cursor: pointer;
 }
