@@ -326,14 +326,26 @@
 }
 
 .news {
+    font-size: $size-p;
+
     .row {
         padding-bottom: 60px;
     }
-    
+
     .news-card {
         width: 360px;
         height: 390px;
         background-color: $grey;
         text-align: left;
+    }
+
+    h2,
+    p {
+        @include clear-mp;
+        padding: 18px 20px 0;
+    }
+
+    p {
+        line-height: 30px;
     }
 }

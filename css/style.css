@@ -323,12 +323,21 @@ body {
     text-transform: uppercase;
     cursor: pointer; }
 
-.news .row {
-  padding-bottom: 60px; }
-.news .news-card {
-  width: 360px;
-  height: 390px;
-  background-color: #f4f4f4;
-  text-align: left; }
+.news {
+  font-size: 16px; }
+  .news .row {
+    padding-bottom: 60px; }
+  .news .news-card {
+    width: 360px;
+    height: 390px;
+    background-color: #f4f4f4;
+    text-align: left; }
+  .news h2,
+  .news p {
+    margin: 0;
+    padding: 0;
+    padding: 18px 20px 0; }
+  .news p {
+    line-height: 30px; }
 
 /*# sourceMappingURL=style.css.map */
