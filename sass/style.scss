@@ -1,0 +1,294 @@
+@import 'general';
+
+.line {
+    height: 2px;
+    width: 200px;
+    background-color: $red;
+}
+
+.navigation {
+    position: fixed;
+    z-index: 1;
+    padding-top: 40px;
+
+    .navigation-list {
+        float: right;
+        list-style-type: none;
+        @include clear-mp;
+    }
+
+    .navigation-list-item {
+        display: inline-block;
+    }
+
+    a {
+        font-size: 16;
+        display: block;
+        padding: 0 10px;
+        @include a-style(white);
+
+        &:hover {
+            color: $red;
+        }
+    }
+}
+
+.main {
+    position: relative;
+    text-align: center;
+
+    img {
+        width: 100%;
+    }
+    
+    .main-text {
+        width: 100%;
+        position: absolute;
+        top: 26%;
+        color: white;
+
+        h2 {
+            font-size: 46px;
+            font-weight: 300;
+            letter-spacing: 1.15px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        span {
+            font-weight: 400;
+        }
+
+        .line {
+            margin: 0 auto;
+        }
+
+        p {
+            margin-top: 20px;
+            margin-bottom: 50px;
+            font-size: 22px;
+            line-height: 38px;
+            font-weight: 300;
+        }
+    }
+
+    .prostokat {
+        position: absolute;
+        top: 94.85%;
+        left: 0;
+        z-index: -1;
+    }
+
+    button {
+        @include button-style($red, white);
+        cursor: pointer;
+    }
+}
+
+.about {
+    position: relative;
+    padding-bottom: 95px;
+    background-color: $grey;
+
+    img {
+        padding-top: 100px;
+        float: right;
+    }
+
+    h2 {
+        padding-top: 140px;
+        font-size: 32px;
+        line-height: 52px;
+    }
+
+    p {
+        max-width: 466px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .video {
+        color: $red;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: 400;
+        width: 150px;
+
+        .border {
+            float: right;
+            border: 1.5px solid $red;
+            border-radius: 50%;
+            width: 27px;
+            height: 27px;
+        }
+
+        .arrow {
+            margin-top: 4px;
+            margin-left: 8px;
+            @include arrow-right(8px, 11px);
+        }
+    }
+}
+
+.one-text {
+    width: 100%;
+    text-align: center;
+
+    h2 {
+        @include clear-mp;
+        padding-top: 150px;
+        padding-bottom: 40px;
+        font-size: 38px;
+        font-weight: 400;
+    }
+
+    .line {
+        margin: 0 auto;
+    }
+
+    p {
+        @include clear-mp;
+        padding-top: 40px;
+        padding-bottom: 87px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 681px;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+}
+
+.row {
+    @include clearfix;
+}
+
+.ourServices {
+    .ourServices-cards {
+        .ourServices-image {
+            width: 131px;
+            height: 131px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            border-radius: 50%;
+            margin: 0 auto;
+        }
+
+        img {
+            padding-top: 40px;
+        }
+
+        h2 {
+            @include clear-mp;
+            padding-top: 34px;
+            padding-bottom: 121px;
+            font-size: 15px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $red;
+        }
+    }
+}
+
+.quotes {
+    position: relative;
+    text-align: center;
+
+    .quotes-image {
+        width: 100%;
+    }
+
+    .quotes-text {
+        width: 100%;
+        position: absolute;
+        top: 20%;
+
+        p {
+            padding: 40px 0;
+            color: white;
+            width: 100%;
+            max-width: 824px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.prices {
+    background-color: $grey;
+    padding-bottom: 135px;
+    
+    .prices-card {
+        width: 260px;
+        height: 470px;
+        background-color: white;
+
+        p {
+            font-size: 15px;
+            @include clear-mp;
+        }
+
+        .prices-card-title {
+            background-color: #5a5a5a;
+            color: white;
+            padding-top: 33px;
+            padding-bottom: 55px;
+
+            span {
+                font-size: 28px;
+            }
+
+            h2 {
+                @include clear-mp;
+                font-size: 50px;
+            }                 
+        }
+
+        .prices-card-text {
+            padding-bottom: 25px;
+
+            p {
+                line-height: 38px;
+            }
+        }
+
+        button {
+            @include button-style($red, white);
+            cursor: pointer;
+        }
+
+        .prices-card-quantity {
+            @include button-style($grey, black);
+            margin: 0 auto;
+            position: relative;
+            top: -25px;
+
+            p {
+                padding-top: 15px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.additionalInfo {
+    padding-top: 150px;
+    padding-bottom: 134px;
+
+    h2 {
+        color: $red;
+        font-size: 15PX;
+        text-transform: uppercase;
+        @include clear-mp;
+        text-align: left;
+        padding-bottom: 29px;
+    }
+
+    p {
+        @include clear-mp;
+        text-align: left;
+    }
+
+    .additionalInfo-line {
+        padding-bottom: 87px;
+    }
+}

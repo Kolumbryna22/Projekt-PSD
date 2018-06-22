@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  font-family: "Lato", sans-serif; }
+
+.container {
+  width: 100%;
+  max-width: 1135px;
+  margin: 0 auto; }
+
+/* elements for grid */
+[class*="col-"] {
+  float: left;
+  min-height: 1px;
+  text-align: center; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.line {
+  height: 2px;
+  width: 200px;
+  background-color: #ed145b; }
+
+.navigation {
+  position: fixed;
+  z-index: 1;
+  padding-top: 40px; }
+  .navigation .navigation-list {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  .navigation .navigation-list-item {
+    display: inline-block; }
+  .navigation a {
+    font-size: 16;
+    display: block;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none; }
+    .navigation a:hover {
+      color: #ed145b; }
+
+.main {
+  position: relative;
+  text-align: center; }
+  .main img {
+    width: 100%; }
+  .main .main-text {
+    width: 100%;
+    position: absolute;
+    top: 26%;
+    color: white; }
+    .main .main-text h2 {
+      font-size: 46px;
+      font-weight: 300;
+      letter-spacing: 1.15px;
+      margin-bottom: 20px;
+      text-transform: uppercase; }
+    .main .main-text span {
+      font-weight: 400; }
+    .main .main-text .line {
+      margin: 0 auto; }
+    .main .main-text p {
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-size: 22px;
+      line-height: 38px;
+      font-weight: 300; }
+  .main .prostokat {
+    position: absolute;
+    top: 94.85%;
+    left: 0;
+    z-index: -1; }
+  .main button {
+    background-color: #ed145b;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    text-transform: uppercase;
+    cursor: pointer; }
+
+.about {
+  position: relative;
+  padding-bottom: 95px;
+  background-color: #f4f4f4; }
+  .about img {
+    padding-top: 100px;
+    float: right; }
+  .about h2 {
+    padding-top: 140px;
+    font-size: 32px;
+    line-height: 52px; }
+  .about p {
+    max-width: 466px;
+    font-size: 15px;
+    line-height: 30px; }
+  .about .video {
+    color: #ed145b;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 150px; }
+    .about .video .border {
+      float: right;
+      border: 1.5px solid #ed145b;
+      border-radius: 50%;
+      width: 27px;
+      height: 27px; }
+    .about .video .arrow {
+      margin-top: 4px;
+      margin-left: 8px;
+      border-top: 8px solid transparent;
+      border-left: 11px solid #ed145b;
+      border-bottom: 8px solid transparent; }
+
+.one-text {
+  width: 100%;
+  text-align: center; }
+  .one-text h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    font-size: 38px;
+    font-weight: 400; }
+  .one-text .line {
+    margin: 0 auto; }
+  .one-text p {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    padding-bottom: 87px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 681px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px; }
+
+.row:before, .row:after {
+  content: ' ';
+  display: table; }
+.row:after {
+  clear: both; }
+
+.ourServices .ourServices-cards .ourServices-image {
+  width: 131px;
+  height: 131px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  margin: 0 auto; }
+.ourServices .ourServices-cards img {
+  padding-top: 40px; }
+.ourServices .ourServices-cards h2 {
+  margin: 0;
+  padding: 0;
+  padding-top: 34px;
+  padding-bottom: 121px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ed145b; }
+
+.quotes {
+  position: relative;
+  text-align: center; }
+  .quotes .quotes-image {
+    width: 100%; }
+  .quotes .quotes-text {
+    width: 100%;
+    position: absolute;
+    top: 20%; }
+    .quotes .quotes-text p {
+      padding: 40px 0;
+      color: white;
+      width: 100%;
+      max-width: 824px;
+      margin: 0 auto; }
+
+.prices {
+  background-color: #f4f4f4;
+  padding-bottom: 135px; }
+  .prices .prices-card {
+    width: 260px;
+    height: 470px;
+    background-color: white; }
+    .prices .prices-card p {
+      font-size: 15px;
+      margin: 0;
+      padding: 0; }
+    .prices .prices-card .prices-card-title {
+      background-color: #5a5a5a;
+      color: white;
+      padding-top: 33px;
+      padding-bottom: 55px; }
+      .prices .prices-card .prices-card-title span {
+        font-size: 28px; }
+      .prices .prices-card .prices-card-title h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 50px; }
+    .prices .prices-card .prices-card-text {
+      padding-bottom: 25px; }
+      .prices .prices-card .prices-card-text p {
+        line-height: 38px; }
+    .prices .prices-card button {
+      background-color: #ed145b;
+      color: white;
+      width: 200px;
+      height: 50px;
+      border: none;
+      border-radius: 25px;
+      text-transform: uppercase;
+      cursor: pointer; }
+    .prices .prices-card .prices-card-quantity {
+      background-color: #f4f4f4;
+      color: black;
+      width: 200px;
+      height: 50px;
+      border: none;
+      border-radius: 25px;
+      text-transform: uppercase;
+      margin: 0 auto;
+      position: relative;
+      top: -25px; }
+      .prices .prices-card .prices-card-quantity p {
+        padding-top: 15px;
+        text-transform: uppercase;
+        font-weight: bold; }
+
+.additionalInfo {
+  padding-top: 150px;
+  padding-bottom: 134px; }
+  .additionalInfo h2 {
+    color: #ed145b;
+    font-size: 15PX;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    padding-bottom: 29px; }
+  .additionalInfo p {
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+  .additionalInfo .additionalInfo-line {
+    padding-bottom: 87px; }
+
+/*# sourceMappingURL=style.css.map */
