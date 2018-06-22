@@ -276,16 +276,17 @@
 
     h2 {
         color: $red;
-        font-size: $size-p;
         text-transform: uppercase;
         @include clear-mp;
         text-align: left;
         padding-bottom: 29px;
+        font-size: $size-p;
     }
 
     p {
         @include clear-mp;
         text-align: left;
+        font-size: $size-p;
     }
 
     .additionalInfo-line {
