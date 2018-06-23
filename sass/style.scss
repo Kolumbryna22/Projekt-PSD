@@ -198,6 +198,7 @@
 .quotes {
     position: relative;
     text-align: center;
+    color: white;
 
     .quotes-image {
         width: 100%;
@@ -210,11 +211,23 @@
 
         p {
             padding: 40px 0;
-            color: white;
             width: 100%;
             max-width: 824px;
             margin: 0 auto;
         }
+    }
+    
+    .one-text {
+        position: absolute;
+        top: -40px;
+
+        p {
+            padding-bottom: 30px;
+        }
+    }
+
+    button {
+        @include button-style($red, white);
     }
 }
 
@@ -367,4 +380,8 @@
             margin-bottom: 64px;
         }
     }
+}
+
+.quotes {
+
 }
