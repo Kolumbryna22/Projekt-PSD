@@ -326,8 +326,6 @@
 }
 
 .news {
-    font-size: $size-p;
-
     .row {
         padding-bottom: 60px;
     }
@@ -342,10 +340,31 @@
         p {
             @include clear-mp;
             padding: 18px 20px 0;
+            font-size: $size-p;
         }
     
         p {
             line-height: 30px;
+        }
+    }
+
+    .news-more {
+        font-size: $size-p;
+        text-align: center;
+        text-transform: uppercase;
+        color: $red;
+        cursor: pointer;
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .arrow-bottom {
+            width: 0;
+            height: 0;
+            margin: 0 auto;
+            @include arrow-down(5px, 10px);
+            margin-bottom: 64px;
         }
     }
 }
