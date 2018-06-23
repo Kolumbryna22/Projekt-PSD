@@ -332,12 +332,12 @@ body {
     height: 390px;
     background-color: #f4f4f4;
     text-align: left; }
-  .news h2,
-  .news p {
-    margin: 0;
-    padding: 0;
-    padding: 18px 20px 0; }
-  .news p {
-    line-height: 30px; }
+    .news .news-card h2,
+    .news .news-card p {
+      margin: 0;
+      padding: 0;
+      padding: 18px 20px 0; }
+    .news .news-card p {
+      line-height: 30px; }
 
 /*# sourceMappingURL=style.css.map */

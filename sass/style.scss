@@ -337,15 +337,15 @@
         height: 390px;
         background-color: $grey;
         text-align: left;
-    }
 
-    h2,
-    p {
-        @include clear-mp;
-        padding: 18px 20px 0;
-    }
-
-    p {
-        line-height: 30px;
+        h2,
+        p {
+            @include clear-mp;
+            padding: 18px 20px 0;
+        }
+    
+        p {
+            line-height: 30px;
+        }
     }
 }
